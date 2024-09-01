@@ -1,3 +1,6 @@
+@import 'weather-icons/css/weather-icons.min.css';
+
+
 * {
   transition: all 0.1s ease-in;
   box-sizing: border-box;
@@ -36,6 +39,12 @@ header {
   text-align: center;
   font-size: 22px;
   outline-style: solid;
+}
+
+.blocks i {
+  font-size: 42px;
+  vertical-align: middle;
+  margin-left: 30px; /* Добавляем отступ между температурой и иконкой */
 }
 
 .blocks div {
